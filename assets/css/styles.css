@@ -12,7 +12,9 @@ body {
 }
 
 ul,
-span {
+span,
+h1,
+p {
   margin: 0;
   padding: 0;
 }
@@ -76,7 +78,7 @@ button {
   margin-right: 72px;
 }
 
-.header__button {
+.button {
   max-width: 108px;
   max-height: 42px;
   padding: 10px 24px;
@@ -87,3 +89,26 @@ button {
 }
 
 /* header */
+
+.main {
+  padding-top: 140px;
+}
+
+.about__wrapper {
+  max-width: 470px;
+}
+
+.about__title {
+  font-size: 48px;
+  line-height: 54px;
+}
+
+.about__text {
+  line-height: 28px;
+  padding: 20px 0 30px 0;
+}
+
+.about__text-color {
+  color: #ff8345;
+  font-weight: 600;
+}
