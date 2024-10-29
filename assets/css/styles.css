@@ -52,18 +52,13 @@ a {
 }
 
 .header__link {
-  max-width: 90px;
-  max-height: 90px;
+  max-width: 120px;
+  max-height: 120px;
 }
 
 .header__logo {
   width: 100%;
   height: 100%;
-}
-
-.logo-text {
-  max-width: 90px;
-  text-align: center;
 }
 
 .header__list {
@@ -140,7 +135,7 @@ a {
 .about__agreement {
   display: flex;
   flex-direction: row;
-  margin: 10px 0;
+  margin: 10px 0 26px 0;
 }
 
 .about__agreement::placeholder {
@@ -162,11 +157,59 @@ a {
 .about__preview {
   display: flex;
   align-items: flex-end;
-  max-width: 642px;
-  height: 720px;
 }
 
-.about__preview-image {
+/* animation */
+
+.animation {
+  width: 452px;
+  height: 452px;
+  border: 1px solid #e8e8e8;
+  border-radius: 100%;
+  position: relative;
+  top: 0;
+  right: 32%;
+}
+
+.animation__circle {
+  overflow: hidden;
+  border-radius: 80%;
+  border: 1px solid #fff;
+}
+
+.animation__circle:nth-child(1) {
+  max-width: 60px;
+  max-height: 60px;
+}
+
+.animation__circle:nth-child(2) {
+  max-width: 30px;
+  max-height: 30px;
+}
+
+.animation__circle:nth-child(3) {
+  max-width: 60px;
+  max-height: 60px;
+}
+
+.animation__circle:nth-child(4) {
+  max-width: 30px;
+  max-height: 30px;
+}
+
+.animation__circle:nth-child(5) {
+  max-width: 60px;
+  max-height: 60px;
+}
+
+.animation__preview-image {
+  overflow: hidden;
   width: 100%;
   height: 100%;
+  max-width: 460px;
+  max-height: 486px;
+  position: absolute;
+  top: 12%;
+  left: -2%;
+  right: 0;
 }
