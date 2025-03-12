@@ -73,7 +73,7 @@ a {
 .header__button {
   max-width: 108px;
   max-height: 42px;
-  border-radius: 20px;
+
 }
 
 .button {
@@ -81,6 +81,7 @@ a {
   padding: 10px 24px;
   color: #ffff;
   background-color: #4fe0a5;
+  border-radius: 10px;
   border: none;
 }
 
@@ -98,6 +99,7 @@ a {
 
 .about__main-content {
   max-width: 510px;
+  margin-right: 42px;
 }
 
 .about__title {
@@ -108,6 +110,8 @@ a {
 .about__text {
   line-height: 28px;
   padding: 30px 0;
+  text-align: justify;
+ 
 }
 
 .about__text-color {
@@ -145,10 +149,23 @@ a {
 }
 
 .about__button {
-  max-width: 140px;
+  max-width: 164px;
   max-height: 46px;
-  border-radius: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
+
+.about__button-img {
+  max-width: 20px;
+  width: 100%;
+}
+
+.about__button-text {
+  margin-left: 8px;
+}
+
 
 .about__checkbox {
   margin-right: 8px;
