@@ -64,6 +64,7 @@ a {
 .header__list {
   display: flex;
   flex-direction: row;
+  font-size: 20px;
 }
 
 .header__item:not(:last-child) {
@@ -88,6 +89,14 @@ a {
 
 .main {
   padding-top: 180px;
+}
+
+.main__title {
+  text-align: center;
+}
+
+.section-other-page {
+  display: none;
 }
 
 .about__wrapper {
@@ -152,7 +161,9 @@ a {
 
 .about__checkbox {
   margin-right: 8px;
+  accent-color: #4fe0a5;
 }
+
 
 .about__preview {
   display: flex;
@@ -171,7 +182,6 @@ a {
   overflow: hidden;
   max-width: 460px;
   max-height: 460px;
-  position: absolute;
 }
 
 .animation__preview-image {
@@ -183,6 +193,7 @@ a {
   border: 1px solid #e8e8e8;
   border-radius: 100%;
   position: absolute;
+  z-index: 1;
   top: 0px;
   bottom: 0px;
   left: 0px;
